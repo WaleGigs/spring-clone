@@ -1,0 +1,380 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0px 0px 0px;
+}
+.navbar img{
+    max-width: 170px;
+    max-height: 170px;
+    padding-left: 200px;
+}
+.navbar li{
+    display: flex;
+}
+button{
+    max-width: fit-content;
+    padding-right: 50px;
+    height: 83px;
+    font-size: 15px;
+    font-weight: 550;
+    background: none;
+    border: none;
+}
+.navbar span{
+    padding-left: 5px;
+}
+.why{
+    width: 400px;
+    margin: auto;
+}
+
+.top{
+    margin-right: 150px;
+    display: flex;
+}
+.d2{
+    position: relative;
+}.d3{
+    position: relative;
+}.d4{
+    position: relative;
+}
+
+.dr1{
+    position: relative;
+}
+.dr1b div:hover {
+    color: rgb(15, 184, 15);
+    transition: all linear.5s;
+}
+.dr1b div{
+    padding: 10px 15px;
+}
+.dr1c div:hover {
+    color: rgb(15, 184, 15);
+    transition: all linear.5s;
+}
+.d2 div{
+    padding: 10px 15px;
+}
+.dr1d div:hover {
+    color: rgb(15, 184, 15);
+    transition: all linear.5s;
+}
+.d3 div{
+    padding: 10px 15px;
+}
+.dr1e div:hover {
+    color: rgb(15, 184, 15);
+    transition: all linear.5s;
+}
+.d4 div{
+    padding: 10px 15px;
+}
+.dr1:hover .dr1b{
+    display: block;
+    transition: all linear.5s;
+}
+.d2:hover .dr1c{
+    display: block;
+    transition: all linear.5s;
+}
+.d3:hover .dr1d{
+    display: block;
+    transition: all linear.5s;
+}
+.d4:hover .dr1e{
+    display: block;
+    transition: all linear.5s;
+}
+
+.dr1b{
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.795);
+    position: absolute;
+    text-align: center;
+    display: none;
+    padding: 10px 20px;
+}
+.dr1c{
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.795);
+    position: absolute;
+    text-align: center;
+    display: none;
+    padding: 10px 20px;
+}
+.dr1d{
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.795);
+    position: absolute;
+    text-align: center;
+    display: none;
+    padding: 10px 20px;
+}
+.dr1e{
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.795);
+    position: absolute;
+    text-align: center;
+    display: none;
+    padding: 10px 20px;
+}
+.back{
+    background-image: url(./spri.jpeg);
+    background-size: cover;
+    height: 450px;
+    background-position: center;
+}
+.siuu{
+    max-width: 650px;
+    padding: 100px 0px;
+    margin: auto;
+}
+.back h1{
+    /* padding: 100px 470px 20px 470px; */
+    font-size: 70px;
+    color: rgb(3, 3, 3);
+    text-align: center;
+}
+.back span{
+    border: 2px solid black;
+    font-size: 19px;
+    padding: 10px 20px;
+    font-weight: 500;
+    margin: auto;
+}
+
+.span2{
+    margin-left: 50px;
+}
+.news{
+    text-align: center;
+    padding: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.spen{
+    padding: 5px 13px;
+    background-color: rgb(0,102,204);
+    color: beige;
+    border-radius: 20px;
+    font-weight: 550;
+}
+.news span{
+    margin-left: 20px;
+}
+.news a{
+    text-decoration: none;
+    color: rgb(0,102,204);
+}
+.news a:hover{
+    text-decoration: underline rgb(0,102,204);
+    transition: all ease-out .7s;
+}
+main h1{
+    padding: 100px 0px 0px 250px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.bigbox{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 200px;
+}
+.smallbox{
+    min-width: 250px;
+    min-height: 330px;
+    background-color: white;
+    margin: 15px;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.699);
+    box-shadow: 0px 3px 3px rgba(110, 107, 107, 0.459);
+}
+.smallbox img{
+    padding: 20px 0px;
+}
+.smallbox p{
+    padding: 10px 0px;
+    vertical-align: baseline;
+    line-height: 27.2px;
+    font-size: 16px;
+    font-weight: 100;
+}
+.smallbox h3{
+    padding: 0px 0px;
+    font-size: 24px;
+}
+.smallbox:hover h3{
+    color: rgb(15, 184, 15);
+    transition: all ease-in-out .3s;
+}
+.smallbox.smallbox:hover{
+    box-shadow: 0px 8px 9px 8px rgba(81, 83, 83, 0.356);
+    transition: all linear .3s;
+    transform: scale(1.015);
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 220px;
+}
+aside{
+    max-width: 450px;
+    max-height: 300px;
+}
+aside h2{
+    font-size: 37px;
+    padding: 20px 100px 0px 100px;
+}
+aside p{
+    padding: 50px 110px;
+    line-height: 20.2px;
+}
+a{        
+    text-decoration: none;
+    color: rgb(0,102,204);
+}
+a:hover{
+    text-decoration: underline rgb(0,102,204);
+}
+.quo{
+    margin: auto;
+    padding: 70px 0px 0px 0px;
+    text-align: center;
+    max-width: 770px;
+
+}
+.quote{
+    width: 50px;
+    
+}
+.quo blockquote{
+    color: rgb(109, 179, 63);
+    padding: 30px 0px;
+    font-size: 25px;
+    font-weight: 550;
+
+}
+.diiv{
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+.diiv img{
+    border-radius: 100%;
+    width: 50px;
+    padding: 0px 30px;
+}
+.blq{
+    padding: 5px 0px;
+}
+.back span:hover{
+    background-color: black;
+    color: white;
+    transition: all ease-in-out .5s;
+}
+.prefoot{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(235, 242, 242);
+    justify-content: center;
+    /* align-items: center; */
+    padding: 80px;
+}
+.prefoot div{
+    max-width: 290px;
+    padding: 0px 0px;
+    line-height: 27px;
+}
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.foot a{
+    color: black;
+    text-decoration: none;;
+}
+.foot a:hover{
+    color: rgb(15, 184, 15);
+    text-decoration: none;
+    transition: all ease-in-out .3s;
+}
+.foot li{
+    padding: 5px 0px;
+}
+.foot ul{
+    padding: 20px;
+    list-style-type: none;
+}
+.foot div{
+    padding: 0px 20px;
+}
+.midfoot{
+    display: flex;
+    padding: 50px 0px 0px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.divin{
+    padding: 0px 50px;
+}
+.input{
+    display: flex;
+}
+input{
+    width: 250px;
+}
+.divin h2{
+    padding: 10px 5px;
+}
+.divin2{
+    margin: auto;
+}
+.divh2{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 0px 5px;
+}
+.check{
+    width: 430px;
+    padding: 10px 0px;
+    display: flex;
+    font-size: 12px;;
+}
+
+.imag{
+    max-width: 200px;
+    padding: 20px 0px;
+}
+.last{
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px 20px 100px 20px;
+    line-height: 15px;
+    color: rgba(128, 128, 128, 0.74);
+
+}
+
+
+
+
